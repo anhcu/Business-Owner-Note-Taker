@@ -12,9 +12,10 @@
 # License
 # Description
 
-Business owner note taker is an application developed for business owners who are busy but yet want to stay organized.  This application will help businesses organize their thoughts and track tasks that need to be completed.
+As a business owner, I like to stay on track and remind myself of all the tasks I have to accomplish in one day. Note taker is an application for business owners who multitask, but want to stay organized.  This application allows users to type in their notes and save it to this application.  You can delete the note once your task is completed 
+
   
-  # Instructions
+# Instructions
 
 # Criteria
 
@@ -36,4 +37,4 @@ Business owner note taker is an application developed for business owners who ar
   If you have any question or would like to reach out plase [email](mailto:anhcu714@gmail.com).
 
 # Mock
-![mock](../public/assets/images/mock.png)
+![mock](public/assets/images/mock.png)
