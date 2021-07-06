@@ -21,17 +21,15 @@ app.get("/api/notes", (req, res) => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-//please explain<-------------------------------------------------------------------------
-//pulling files from public (css and index.js) right????
+//pulling files from public (css and index.js)
 app.use(express.static("public"));
 
 
 // Post function to add new notes to db.json
-//Can I go back and add thing appond what I have save already????????????????????????/
+// Ask can we use the CRUD method
 app.post("/api/notes", (req, res) => {
     const notes = JSON.parse(fs.readFileSync("./db/db.json"));
     const newNotes = req.body;
-    //please explain uuid.v4<-------------------------------------------------------------------
     newNotes.id = uuid.v4();
     notes.push(newNotes);
     fs.writeFileSync("./db/db.json", JSON.stringify(notes))
@@ -40,11 +38,12 @@ app.post("/api/notes", (req, res) => {
 
 
 //used for deleting notes
-//can you break down this delete part?<----------------------------------
 app.delete("/api/notes/:id", (req, res) => {
     const notes = JSON.parse(fs.readFileSync("./db/db.json"));
+    //read the file and only remove the note.id that is intend to be remove
     const delNote = notes.filter((rmvNote) => rmvNote.id !== req.params.id);
     fs.writeFileSync("./db/db.json", JSON.stringify(delNote));
+    //return it to a new file
     res.json(delNote);
 })
 
