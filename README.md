@@ -36,3 +36,4 @@ Business owner note taker is an application developed for business owners who ar
   If you have any question or would like to reach out plase [email](mailto:anhcu714@gmail.com).
 
 # Mock
+![mock](../public/assets/images/mock.png)
