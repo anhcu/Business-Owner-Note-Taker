@@ -30,6 +30,7 @@ app.use(express.static("public"));
 app.post("/api/notes", (req, res) => {
     const notes = JSON.parse(fs.readFileSync("./db/db.json"));
     const newNotes = req.body;
+    //given the new note a uuid and push it to a db.jason
     newNotes.id = uuid.v4();
     notes.push(newNotes);
     fs.writeFileSync("./db/db.json", JSON.stringify(notes))
@@ -46,8 +47,6 @@ app.delete("/api/notes/:id", (req, res) => {
     //return it to a new file
     res.json(delNote);
 })
-
-
 
 
 //call home page 

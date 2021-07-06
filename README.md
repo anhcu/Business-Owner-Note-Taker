@@ -1,22 +1,25 @@
 # Business-Owner-Note-Taker
 - Link to Business-Owner-Note-Taker Github [github](https://github.com/anhcu/Business-Owner-Note-Taker)
+- Link to [Heroku](#)
 
 
 # Table of Contents
-* [License](License)
+* [License](#License)
 * [Description](#Description)
 * [Criteria](#Criteria)
-* [Contact](Contact)
-* [Mock](Mock)
+* [Contact](#Contact)
+* [Mock](#Mock)
 
 # License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Description
 
 As a business owner, I like to stay on track and remind myself of all the tasks I have to accomplish in one day. Note taker is an application for business owners who multitask, but want to stay organized.  This application allows users to type in their notes and save it to this application.  You can delete the note once your task is completed 
 
-  
-# Instructions
+# Install 
 
+* Install [NPM UUID](https://www.npmjs.com/package/uuid)
+* Install [NPM Express](https://www.npmjs.com/package/express)
 # Criteria
 
 - [x] GIVEN a note-taking application
@@ -33,7 +36,7 @@ As a business owner, I like to stay on track and remind myself of all the tasks 
 - [x] WHEN I click on the Write icon in the navigation at the top of the page
 - [x] THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
-  # Contact
+# Contact
   If you have any question or would like to reach out plase [email](mailto:anhcu714@gmail.com).
 
 # Mock
