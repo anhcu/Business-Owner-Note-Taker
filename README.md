@@ -1,6 +1,6 @@
 # Business-Owner-Note-Taker
 - Link to Business-Owner-Note-Taker Github [github](https://github.com/anhcu/Business-Owner-Note-Taker)
-- Link to [Heroku](#)
+- Link to [Heroku](https://business-owner-note-taker.herokuapp.com/)
 
 
 # Table of Contents
@@ -8,7 +8,7 @@
 * [Description](#Description)
 * [Criteria](#Criteria)
 * [Contact](#Contact)
-* [Mock](#Mock)
+* [Mock](#Mock) 
 
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -19,6 +19,9 @@ As a business owner, I like to stay on track and remind myself of all the tasks 
 # Install 
 * Install [NPM UUID](https://www.npmjs.com/package/uuid)
 * Install [NPM Express](https://www.npmjs.com/package/express)
+
+# Instructions
+First, pull the repo from Github and install NPM UUID and NPM Express. Second, you’ll  go to your terminal and run server.js. After you run server.js, you’ll go to your borrows and go to http://localhost:8080.  From there, you’ll be able to see the functional note take application. 
 # Criteria
 
 - [x] GIVEN a note-taking application
