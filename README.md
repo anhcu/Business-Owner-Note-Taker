@@ -17,7 +17,6 @@
 As a business owner, I like to stay on track and remind myself of all the tasks I have to accomplish in one day. Note taker is an application for business owners who multitask, but want to stay organized.  This application allows users to type in their notes and save it to this application.  You can delete the note once your task is completed 
 
 # Install 
-
 * Install [NPM UUID](https://www.npmjs.com/package/uuid)
 * Install [NPM Express](https://www.npmjs.com/package/express)
 # Criteria
