@@ -8,7 +8,7 @@ const notes = require("./db/db.json");
 
 // Sets up the Express App
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 
 //This gets notes saved and joins it in db.json
